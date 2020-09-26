@@ -1,27 +1,34 @@
+/******* Main Page *******/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-body {
-    background-color: #d9dcd6;
+body { /* Main Page Background */
+    background-color: #d9dcd6; 
 }
 
+
+
+
+/**** Nav Bar Code *****/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+    background-color: #2a607c; /* Nav Bar Background Color */
+    color: #ffffff; /* "Hori n" Logo Color*/
 }
 
-.header h1 {
+
+/**** Logo Font Size ****/
+.header h1 { 
     display: inline-block;
     font-size: 48px;
 }
 
 .header h1 .seo {
-    color: #d9dcd6;
+    color: #d9dcd6; /* "seo" Logo Color */
 }
 
 .header div {
@@ -41,8 +48,9 @@ body {
     margin-left: 25px;
 }
 
+/******* Main Page Background Color ******/
 a {
-    color: #ffffff;
+    color: #ffffff; 
     text-decoration: none;
 }
 
@@ -50,7 +58,9 @@ p {
     font-size: 16px;
 }
 
-.hero {
+
+/****** Banner Img Source ******/
+.hero { 
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -75,7 +85,71 @@ p {
     margin-left: 20px;
 }
 
-.benefits {
+
+/***** Section 1 *****/
+.search-engine-optimization h2 { /* Title */
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.search-engine-optimization img { /* Thumbnail*/
+    max-height: 200px;
+}
+
+.search-engine-optimization { /* Text & Box ( Color & Position ) */ 
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;/*Box Background Color*/
+    color: #ffffff; /* Text Color */
+}
+
+
+/***** Section 2  *****/
+.online-reputation-management h2 { /* Title */
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.online-reputation-management img { /* Thumbnail*/
+    max-height: 200px;
+}
+
+.online-reputation-management { /* Text & Box ( Color & Position ) */ 
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb; 
+    color: #ffffff; 
+}
+
+
+/***** Section 3 *****/
+.social-media-marketing h2 { /* Title */
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing img { /* Thumbnail*/
+    max-height: 200px;
+}
+
+.social-media-marketing { /* Text & Box ( Color & Position ) */
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb; 
+    color: #ffffff; 
+}
+
+
+
+
+/******** Side Bar Background, Fonts & Position ********/
+.benefits { 
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -83,122 +157,70 @@ p {
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    background-color: #2589bd; /*Side bar box background color */
 }
 
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/********* Side bar - Section 1**********/
+.benefit-lead h3 { /*Title Position*/
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+.benefit-lead img { /*IMG*/
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
+.benefit-lead {/*Text Color*/
+    margin-bottom: 32px;
+    color: #ffffff; 
+}
+
+
+
+/*********Side bar - Section 2**********/
+.benefit-brand h3 { /*Title Position*/
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-brand img {/*IMG*/
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-cost img {
+.benefit-brand {/*Text Color*/
+    margin-bottom: 32px;
+    color: #ffffff; 
+}
+
+
+/********* Side bar - Section 3 **********/
+.benefit-cost h3 {/*Title Position*/
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-cost img {/*Thumbnail*/
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/* Section 1 - Title, Thumbnail, Text Font, Box Size & Position Code */
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+.benefit-cost {/*Text Color*/
+    margin-bottom: 32px;
+    color: #ffffff; 
 }
 
 
-/* Section 2 - Title, Thumbnail, Text Font, Box Size & Position Code  */
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* Section 3 - Title, Thumbnail, Text Font, Box Size & Position Code */
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-
-/* Footer Text Font, Size & Position Code */
-.footer h2 {
+/****** Footer ******/
+.footer h2 {/* Font Size */
     font-size: 20px;
 }
 
-.footer {
+.footer { /* Text Position */
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
